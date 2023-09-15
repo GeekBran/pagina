@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MAIN{
+    width: 100%;
+    background-color: seashell;
+}
+
+.cabeza{
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    display: flex;
+}
+
+.inicio{
+    width: 20%;
+    padding-left: 10px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    color: goldenrod;
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+.navegacion{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.link{
+    color: gold;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px 20px;
+    font-size: 32px;
+}
+
+.link:hover{
+    background-color: gold;
+    color: black;
+    transform: scale(0.9);
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px 20px;
+    font-size: 32px;
+    border-radius: 20px;
+}
+
+.info{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: gold;
+}
+
+.tituloinfo{
+    font-size: 80px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+}
+
+.subtituloinfo{
+    font-size: 40px;
+    color: rgba(5, 5, 5, 0.842);
+    padding-top: 10px;
+}
+
+
+.form{
+    padding: 50px 20px;
+    background-color: black;
+    box-shadow: 0 0 6px rgba(5, 5, 5, 0.842);
+    border-radius: 10px; 
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+}
+
+form .celdas{
+    position: relative;
+    margin: 45px;
+}
+
+input{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+
+}
+
+.Enviar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    background-color: gold;
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: black;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.formulario{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+.casilla{
+    width: 50%;
+    height: 45px;
+    margin: 7% auto;
+    outline: none;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    
+}
+
+
+
+.tabla{
+    border: solid 1px black;
+    background-image: url(img/hollywood.jpg);
+
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    color: blanchedalmond;
+    font-size: 50px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: black;
+
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+td{
+    
+    border-bottom: gold;
+}
+
+tbody{
+    background-color: gold;
+    color: black;
+}
+
